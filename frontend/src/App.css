@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Global font setup */
+:root {
+	--app-font: "Tajawal", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+html, body, #root {
+	font-family: var(--app-font);
+}
+
+/* Optional: improve Arabic rendering and RTL */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

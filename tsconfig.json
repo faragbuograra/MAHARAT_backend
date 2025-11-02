@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "baseUrl": "./src",
+        "typeRoots": [
+            "./src/Types",
+            "node_modules/@types"
+        ],
+        "resolveJsonModule": true,
+        "outDir": "./build",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*",
+        "Database/**/*"
+, "public/uploads/mailfiles/39250822160339_create_AgreementAssignmentOrder_table.ts", "public/uploads/mailfiles/39250822160339_create_AgreementAssignmentOrderSupport_table.ts", "public/uploads/mailfiles/49250822160339_create_AgreementAssignmentOrderLicenses_table.ts", "public/uploads/39250822160339_create_AssignmentOrderLicenses_table.ts", "public/uploads/39250822160339_create_AssignmentOrderSupport_table.ts", "public/uploads/39250822160339_create_AgreementLinkLicenses_table.ts", "public/uploads/39250822160339_create_AgreementLinkSupport_table.ts", "public/uploads/39250822160339_create_AgreementAssignmentOrderSupport_table.ts", "public/uploads/49250822160339_create_AgreementAssignmentOrderLicenses_table.ts"    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
