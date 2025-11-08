@@ -11,7 +11,7 @@ export async function up(knex: Knex): Promise<void> {
     table.text("description").notNullable();
     table.decimal("price", 10, 2).nullable();
     table.string("location").nullable();
-    table.json("images").nullable();
+    table.string("images").nullable();
     table.enu("status", ["active", "pending", "removed"]).defaultTo("active").notNullable();
     table.timestamp("created_at", { useTz: false }).defaultTo(knex.raw("now()")).notNullable();
     table.timestamp("updated_at", { useTz: false }).defaultTo(knex.raw("now()")).notNullable();

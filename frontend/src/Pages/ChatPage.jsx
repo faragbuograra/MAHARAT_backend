@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import io from 'socket.io-client';
 import fetchData, { BASE_URL } from '../Api/FetchApi';
 
-const SOCKET_URL = 'http://10.11.1.67:8012';
+const SOCKET_URL = 'http://0.0.0.0:8022';
 
 const ChatPage = () => {
   const { userId } = useParams(); // userId: the other participant

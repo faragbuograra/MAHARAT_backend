@@ -1,6 +1,6 @@
 import Swal from 'sweetalert2';
 
-export const BASE_URL = 'http://10.11.1.67:8012/api/v1'; // Replace with your actual base URL
+export const BASE_URL = 'http://0.0.0.0:8022/api/v1'; // Replace with your actual base URL
 
 let TOKEN = '';
 if (typeof window !== 'undefined') {

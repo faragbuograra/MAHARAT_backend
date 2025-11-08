@@ -42,7 +42,7 @@ const ChatsListPage = () => {
 
   return (
     <div className="container py-8 px-4 ">
-      <h1 className="text-2xl font-bold mb-6">محادثاتي</h1>
+      <h1 className="text-2xl font-bold  mb-6">محادثاتي</h1>
       {loading ? (
         <div className="text-center">جاري التحميل...</div>
       ) : error ? (

@@ -6,7 +6,6 @@ import { RoleMiddleware } from "../Middlewares/RoleMiddleware";
 import { PublicAuthRoutes } from "../Modules/Auth/auth.routs";
 import { AdminUserRoutes, UserRoutes } from "../Modules/Users/user.routes";
 import { GetStatics } from "./statistics.route";
-import { AdminAdsRoutes, PublicAdsRoutes } from "../Modules/ads/ads.routes";
 import { logout } from "../Modules/Auth/logout";
 import { me } from "../Modules/Auth/me";
 import { AdminCategoriesRoutes, CategoriesRoutes } from "../Modules/Categories/categories.routes";
